@@ -21,4 +21,4 @@ jobs:
             -Dsonar.projectKey=sonarqube-lab \
             -Dsonar.sources=. \
             -Dsonar.host.url=$SONAR_HOST_URL \
-            -Dsonar.login=$SONAR_TOKEN
+            -Dsonar.login=$SONAR_TOKEN_CI_CD
